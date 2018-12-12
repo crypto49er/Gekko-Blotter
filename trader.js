@@ -322,7 +322,7 @@ Trader.prototype.createOrder = function(side, amount, advice, id) {
           effectivePrice = summary.price;
         }
 
-        grreadtime = summary.date.format('lLT') + '';
+        grreadtime = summary.date.format('l LT');
 
         headertxt = "date,price,amount,side\n";
 
